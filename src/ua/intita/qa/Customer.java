@@ -89,4 +89,17 @@ public class Customer {
     public void setNumBank(int numBank) {
         NumBank = numBank;
     }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "id=" + id +
+                ", surname='" + surname + '\'' +
+                ", name='" + name + '\'' +
+                ", otchestvo='" + otchestvo + '\'' +
+                ", adress='" + adress + '\'' +
+                ", NumCreditCard=" + NumCreditCard +
+                ", NumBank=" + NumBank +
+                '}';
+    }
 }

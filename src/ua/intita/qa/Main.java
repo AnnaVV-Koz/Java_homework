@@ -42,6 +42,32 @@ public class Main {
         c[4] = new Customer(5,"Кравец", "Паша","Иванович", "Гоголя_87", 45678903, 98239877);
         c[5] = new Customer(6,"Кравец", "Паша","Иванович", "Фрунзе_76", 34523145, 98239877);
         //finish task2
+        //start task 3
+        String[] author = {"Ушинский","Гримм","Андерсен","Зинчук","Сутеев"};
+        String [] title = {"Колобок", "Золушка","Русалочка","Курочка ряба","Теремок"};
+        String [] PH = {"Перо","Сказка","Белкар Книг","Сонце","Свитанок"};
+        Book[] b = new Book[5];
+        b[0] = new Book(1,"Колобок","Ушинский", "Перо", 2014);
+        b[1] = new Book(2, "Золушка","Гримм", "Сказка",2017);
+        b[2] = new Book(3, "Русалочка","Андерсен", "Белкар Книга",2014);
+        b[3] = new Book(4,"Курочка ряба","Зинчук", "Сонце", 2018);
+        b[4] = new Book(5,"Теремок","Сутеев", "Свитанок",2017);
+
+        //Task3.1
+        for (int i=0;i<author.length;i++) {
+            System.out.println("Title :"+ title[i]+" Author:" + author[i]);
+            Book.listOfBookAuthor(b,author[i]);
+        }
+        //Task3.2
+        for (int i=0;i<PH.length;i++) {
+            System.out.println("Title :"+ title[i]+" PublishingHouse:" + PH[i]);
+            Book.listOfBookAuthor(b,PH[i]);
+
+        }
+        //Book.ListAfterYear(Book[i].title,2014);
+
+
+        //finish task3
 
 
         // int[] arr = new int[n];
@@ -56,6 +82,7 @@ public class Main {
 
     }
 }
+
 
 
 

@@ -115,4 +115,20 @@ public class Student {
             }
         }
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", surname='" + surname + '\'' +
+                ", name='" + name + '\'' +
+                ", otchestvo='" + otchestvo + '\'' +
+                ", birthday=" + birthday +
+                ", adress='" + adress + '\'' +
+                ", telephone=" + telephone +
+                ", Facult='" + Facult + '\'' +
+                ", cource=" + cource +
+                ", group='" + group + '\'' +
+                '}';
+    }
 }
