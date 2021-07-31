@@ -9,7 +9,7 @@ public class SevenNine {
             }
         }
         System.out.println("\n");
-        System.out.println("Числа делятся на 9: ");
+        System.out.println("Числа делятся на 9:  ");
         for(int i=0;i<n;i++){
             if(arr[i]%9==0){
                 System.out.println(arr[i]+" ");
