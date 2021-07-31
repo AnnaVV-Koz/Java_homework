@@ -15,7 +15,7 @@ public class SimpleNum {
                 }
             }
             if (Prime)
-                System.out.println(arr[i] + " простое число в массиве ");
+                System.out.println(arr[i] + " простое число в массиве  ");
         }
 
     }

@@ -85,7 +85,7 @@ public Book(String title,String author)
         }
     }
     public static void ListAfterYear(Book[] b,int year){
-        System.out.println("Born after " + year);
+        System.out.println("Born  after " + year);
         for (int i=0;i<b.length;i++){
             if(b[i].year > year){
                 System.out.println(b[i].year + " " + b[i].title);

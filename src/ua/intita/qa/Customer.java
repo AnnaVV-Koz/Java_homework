@@ -96,7 +96,7 @@ public class Customer {
                 "id=" + id +
                 ", surname='" + surname + '\'' +
                 ", name='" + name + '\'' +
-                ", otchestvo='" + otchestvo + '\'' +
+                ", otchestvo= '" + otchestvo + '\'' +
                 ", adress='" + adress + '\'' +
                 ", NumCreditCard=" + NumCreditCard +
                 ", NumBank=" + NumBank +

@@ -13,7 +13,7 @@ public class MinMax {
                maxValue=arr[i];
            }
        }
-        System.out.println("Min value:" + minValue);
+        System.out.println("Min value: " + minValue);
         System.out.println("Max value:" + maxValue);
     }
 }

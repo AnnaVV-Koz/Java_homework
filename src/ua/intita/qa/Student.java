@@ -111,7 +111,7 @@ public class Student {
         System.out.println("Group " + group);
         for (int i=0;i<students.length;i++){
             if(students[i].group.equals(group)){
-                System.out.println(students[i].name + " " + students[i].surname);
+                System.out.println(students[i].name + "  " + students[i].surname);
             }
         }
     }
