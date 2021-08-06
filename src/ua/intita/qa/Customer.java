@@ -102,4 +102,24 @@ public class Customer {
                 ", NumBank=" + NumBank +
                 '}';
     }
+
+    public  void Interval(int NumCreditCard, Customer[] people) {
+        int startInterval = 0;
+        int endInterval = 0;
+        System.out.println("Enter startInterval :");
+        System.out.println("Enter endInterval :");
+        if (startInterval >= endInterval) {
+            System.out.println("Error, enter correct number");
+        }
+        for (Customer customer : people) {
+            if (customer.NumCreditCard >= startInterval && customer.NumCreditCard <= endInterval) {
+                System.out.println(customer.toString());
+            }
+        }
+
+    }
+
+
+
 }
+
